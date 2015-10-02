@@ -1,0 +1,16 @@
+﻿@model  DemoMVCMySql.Models.ProfileModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div>
+    <h2>Login please</h2>
+   @using (Html.BeginForm("Index", "Home"))
+   {
+     <label>User Id:</label> @Html.TextBoxFor(m => m.UserID) <br />
+     <label>Password:</label> @Html.PasswordFor( m => m.Password)  <br />
+     <input id="submit" type="submit" value="Login" />
+   }
+
+</div>
