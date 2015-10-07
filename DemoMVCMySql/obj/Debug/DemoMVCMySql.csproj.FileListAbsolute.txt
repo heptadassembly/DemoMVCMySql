@@ -32,3 +32,5 @@ C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\obj\Debug\DemoMVCMy
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\obj\Debug\DemoMVCMySql.pdb
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework.dll
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework.xml
+C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\MySql.Data.dll
+C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\GridMvc.dll
