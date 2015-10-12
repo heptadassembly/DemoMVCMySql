@@ -26,5 +26,9 @@ namespace DemoMVCMySql.Controllers
         {
             return View();
         }
+        public ActionResult Teacher()
+        {
+            return View();
+        }
     }
 }

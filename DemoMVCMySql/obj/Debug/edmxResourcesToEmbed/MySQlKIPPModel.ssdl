@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="samsjacksonvilleModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="code_violation">
+    <Key>
+      <PropertyRef Name="code_violation_id" />
+    </Key>
+    <Property Name="code_violation_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="code_violation_nk" Type="varchar" MaxLength="5" />
+    <Property Name="code_violation_suffix" Type="varchar" MaxLength="3" />
+    <Property Name="code_violation_name" Type="varchar" MaxLength="255" />
+  </EntityType>
   <EntityType Name="profile">
     <Key>
       <PropertyRef Name="ProfileId" />
@@ -21,12 +30,17 @@
     <Property Name="MiddleName" Type="varchar" MaxLength="50" />
     <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
-  <Function Name="ProfileLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="samsjacksonville">
-    <Parameter Name="tryUserID" Type="char" Mode="In" />
-    <Parameter Name="tryPassword" Type="char" Mode="In" />
-  </Function>
+  <EntityType Name="teacher">
+    <Key>
+      <PropertyRef Name="Teacher_ID" />
+    </Key>
+    <Property Name="Teacher_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeacherName" Type="varchar" MaxLength="50" />
+  </EntityType>
   <EntityContainer Name="samsjacksonvilleModelStoreContainer">
+    <EntitySet Name="code_violation" EntityType="Self.code_violation" Schema="samsjacksonville" store:Type="Tables" />
     <EntitySet Name="profile" EntityType="Self.profile" Schema="samsjacksonville" store:Type="Tables" />
     <EntitySet Name="student" EntityType="Self.student" Schema="samsjacksonville" store:Type="Tables" />
+    <EntitySet Name="teacher" EntityType="Self.teacher" Schema="samsjacksonville" store:Type="Tables" />
   </EntityContainer>
 </Schema>

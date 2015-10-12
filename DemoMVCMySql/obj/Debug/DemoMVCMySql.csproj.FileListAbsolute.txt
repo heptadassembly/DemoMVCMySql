@@ -34,3 +34,40 @@ C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework.xml
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\MySql.Data.dll
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\GridMvc.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\csc.exe
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\vbc.exe
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\VBCSCompiler.exe
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\DemoMVCMySql.dll.config
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\DemoMVCMySql.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\DemoMVCMySql.pdb
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\GridMvc.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\MySql.Data.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Helpers.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Mvc.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Razor.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Webpages.Deployment.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Webpages.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Webpages.Razor.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Razor.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Webpages.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Webpages.Deployment.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Webpages.Razor.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Helpers.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\bin\System.Web.Mvc.xml
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\obj\Debug\DemoMVCMySql.csprojResolveAssemblyReference.cache
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\obj\Debug\DemoMVCMySql.dll
+C:\Users\n0013_000\Documents\GitHubVisualStudio\DemoMVCMySql\DemoMVCMySql\obj\Debug\DemoMVCMySql.pdb

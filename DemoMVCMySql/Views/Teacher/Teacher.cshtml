@@ -1,0 +1,27 @@
+﻿@using GridMvc.Html
+    @model  IEnumerable<DemoMVCMySql.Models.TeacherModel>
+        @{ 
+        ViewBag.Title = "TeacherView";
+    }
+    <head>
+        
+        <link href="@Url.Content("~/Content/Gridmvc.css")" rel="stylesheet" />
+        <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
+        <script src="@Url.Content("~/Scripts/jquery-1.9.1.min.js")"></script>
+    </head>
+    <div class="jumbotron">
+        <h1 style="color:darkgoldenrod; font-size:larger;">Student Action Managegment System (SAMs)</h1>
+        <h1 style="color:darkgoldenrod; font-size:large; ">Teacher</h1>
+    </div>
+
+<div style="width:500px; text-align:center;">
+
+    @Html.Grid(Model).Columns(columns =>
+   {
+       columns.Add(c => c.Teacher_ID).Titled("TeacherId").Filterable(true);
+       columns.Add(c => c.TeacherName).Titled("Name").Filterable(true);
+   }).WithPaging(3).Sortable(true)
+
+</div>
+    <h2>TeacherView</h2>
+

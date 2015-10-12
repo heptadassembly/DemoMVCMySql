@@ -5,6 +5,15 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="samsjacksonvilleModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="code_violation">
+          <Key>
+            <PropertyRef Name="code_violation_id" />
+          </Key>
+          <Property Name="code_violation_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="code_violation_nk" Type="varchar" MaxLength="5" />
+          <Property Name="code_violation_suffix" Type="varchar" MaxLength="3" />
+          <Property Name="code_violation_name" Type="varchar" MaxLength="255" />
+        </EntityType>
         <EntityType Name="profile">
           <Key>
             <PropertyRef Name="ProfileId" />
@@ -26,13 +35,18 @@
           <Property Name="MiddleName" Type="varchar" MaxLength="50" />
           <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
-        <Function Name="ProfileLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="samsjacksonville">
-          <Parameter Name="tryUserID" Type="char" Mode="In" />
-          <Parameter Name="tryPassword" Type="char" Mode="In" />
-        </Function>
+        <EntityType Name="teacher">
+          <Key>
+            <PropertyRef Name="Teacher_ID" />
+          </Key>
+          <Property Name="Teacher_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TeacherName" Type="varchar" MaxLength="50" />
+        </EntityType>
         <EntityContainer Name="samsjacksonvilleModelStoreContainer">
+          <EntitySet Name="code_violation" EntityType="Self.code_violation" Schema="samsjacksonville" store:Type="Tables" />
           <EntitySet Name="profile" EntityType="Self.profile" Schema="samsjacksonville" store:Type="Tables" />
           <EntitySet Name="student" EntityType="Self.student" Schema="samsjacksonville" store:Type="Tables" />
+          <EntitySet Name="teacher" EntityType="Self.teacher" Schema="samsjacksonville" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -66,7 +80,25 @@
             <Parameter Name="tryUserID" Mode="In" Type="String" />
             <Parameter Name="tryPassword" Mode="In" Type="String" />
           </FunctionImport>
+          <EntitySet Name="code_violation" EntityType="samsjacksonvilleModel.code_violation" />
+          <EntitySet Name="teachers" EntityType="samsjacksonvilleModel.teacher" />
         </EntityContainer>
+        <EntityType Name="code_violation">
+          <Key>
+            <PropertyRef Name="code_violation_id" />
+          </Key>
+          <Property Name="code_violation_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="code_violation_nk" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="code_violation_suffix" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="code_violation_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="teacher">
+          <Key>
+            <PropertyRef Name="Teacher_ID" />
+          </Key>
+          <Property Name="Teacher_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TeacherName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -95,7 +127,24 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <FunctionImportMapping FunctionImportName="ProfileLogin" FunctionName="samsjacksonvilleModel.Store.ProfileLogin" />
+          <EntitySetMapping Name="code_violation">
+            <EntityTypeMapping TypeName="samsjacksonvilleModel.code_violation">
+              <MappingFragment StoreEntitySet="code_violation">
+                <ScalarProperty Name="code_violation_name" ColumnName="code_violation_name" />
+                <ScalarProperty Name="code_violation_suffix" ColumnName="code_violation_suffix" />
+                <ScalarProperty Name="code_violation_nk" ColumnName="code_violation_nk" />
+                <ScalarProperty Name="code_violation_id" ColumnName="code_violation_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="teachers">
+            <EntityTypeMapping TypeName="samsjacksonvilleModel.teacher">
+              <MappingFragment StoreEntitySet="teacher">
+                <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+                <ScalarProperty Name="Teacher_ID" ColumnName="Teacher_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

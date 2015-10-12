@@ -149,14 +149,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="code_violation.cs">
+      <DependentUpon>MySQlKIPPModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\Dashboard\DashboardController.cs" />
     <Compile Include="Controllers\Home\HomeController.cs" />
     <Compile Include="Controllers\Home\LoginController.cs" />
+    <Compile Include="Controllers\Teacher\TeacherController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\KIPPDemoDAO.cs" />
     <Compile Include="Models\ProfileModel.cs" />
+    <Compile Include="Models\TeacherModel.cs" />
     <Compile Include="Models\StudentModel.cs" />
     <Compile Include="MySQlKIPPModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -180,10 +185,15 @@
     <Compile Include="student.cs">
       <DependentUpon>MySQlKIPPModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="teacher.cs">
+      <DependentUpon>MySQlKIPPModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -196,6 +206,7 @@
     <Content Include="Views\Shared\_GridPager.cshtml" />
     <Content Include="Views\Shared\_Grid.cshtml" />
     <Content Include="Views\Shared\_AjaxGridPager.cshtml" />
+    <Content Include="Views\Teacher\Teacher.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

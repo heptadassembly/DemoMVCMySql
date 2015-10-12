@@ -12,13 +12,9 @@ namespace DemoMVCMySql
     using System;
     using System.Collections.Generic;
     
-    public partial class profile
+    public partial class teacher
     {
-        public int ProfileId { get; set; }
-        public string FirstName { get; set; }
-        public string MiddleName { get; set; }
-        public string LastName { get; set; }
-        public string Password { get; set; }
-        public string UserID { get; set; }
+        public int Teacher_ID { get; set; }
+        public string TeacherName { get; set; }
     }
 }
