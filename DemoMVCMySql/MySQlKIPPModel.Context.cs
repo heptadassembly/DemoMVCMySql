@@ -30,6 +30,8 @@ namespace DemoMVCMySql
     
         public DbSet<profile> profiles { get; set; }
         public DbSet<student> students { get; set; }
+        public DbSet<code_violation> code_violation { get; set; }
+        public DbSet<teacher> teachers { get; set; }
     
         public virtual ObjectResult<profile> ProfileLogin(string tryUserID, string tryPassword)
         {

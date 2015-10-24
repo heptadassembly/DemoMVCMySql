@@ -11,8 +11,7 @@ namespace DemoMVCMySql
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class profile
     {
         public int ProfileId { get; set; }
