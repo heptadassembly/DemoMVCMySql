@@ -34,3 +34,39 @@ C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\EntityFramework.xml
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\MySql.Data.dll
 C:\Users\Tim Harrison\Source\Repos\DemoMVCMySql\DemoMVCMySql\bin\GridMvc.dll
+C:\Source\DemoMVCMySql\bin\roslyn\csc.exe
+C:\Source\DemoMVCMySql\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Source\DemoMVCMySql\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Source\DemoMVCMySql\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Source\DemoMVCMySql\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Source\DemoMVCMySql\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Source\DemoMVCMySql\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Source\DemoMVCMySql\bin\roslyn\System.Collections.Immutable.dll
+C:\Source\DemoMVCMySql\bin\roslyn\System.Reflection.Metadata.dll
+C:\Source\DemoMVCMySql\bin\roslyn\vbc.exe
+C:\Source\DemoMVCMySql\bin\roslyn\VBCSCompiler.exe
+C:\Source\DemoMVCMySql\bin\roslyn\VBCSCompiler.exe.config
+C:\Source\DemoMVCMySql\bin\DemoMVCMySql.dll.config
+C:\Source\DemoMVCMySql\bin\DemoMVCMySql.dll
+C:\Source\DemoMVCMySql\bin\DemoMVCMySql.pdb
+C:\Source\DemoMVCMySql\bin\EntityFramework.dll
+C:\Source\DemoMVCMySql\bin\GridMvc.dll
+C:\Source\DemoMVCMySql\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Source\DemoMVCMySql\bin\Microsoft.Web.Infrastructure.dll
+C:\Source\DemoMVCMySql\bin\MySql.Data.dll
+C:\Source\DemoMVCMySql\bin\System.Web.Helpers.dll
+C:\Source\DemoMVCMySql\bin\System.Web.Mvc.dll
+C:\Source\DemoMVCMySql\bin\System.Web.Razor.dll
+C:\Source\DemoMVCMySql\bin\System.Web.Webpages.Deployment.dll
+C:\Source\DemoMVCMySql\bin\System.Web.Webpages.dll
+C:\Source\DemoMVCMySql\bin\System.Web.Webpages.Razor.dll
+C:\Source\DemoMVCMySql\bin\EntityFramework.xml
+C:\Source\DemoMVCMySql\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Source\DemoMVCMySql\bin\System.Web.Razor.xml
+C:\Source\DemoMVCMySql\bin\System.Web.Webpages.xml
+C:\Source\DemoMVCMySql\bin\System.Web.Webpages.Deployment.xml
+C:\Source\DemoMVCMySql\bin\System.Web.Webpages.Razor.xml
+C:\Source\DemoMVCMySql\bin\System.Web.Helpers.xml
+C:\Source\DemoMVCMySql\bin\System.Web.Mvc.xml
+C:\Source\DemoMVCMySql\obj\Debug\DemoMVCMySql.dll
+C:\Source\DemoMVCMySql\obj\Debug\DemoMVCMySql.pdb
