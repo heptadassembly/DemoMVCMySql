@@ -23,6 +23,23 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <FunctionImportMapping FunctionImportName="ProfileLogin" FunctionName="samsjacksonvilleModel.Store.ProfileLogin" />
+    <EntitySetMapping Name="code_violation">
+      <EntityTypeMapping TypeName="samsjacksonvilleModel.code_violation">
+        <MappingFragment StoreEntitySet="code_violation">
+          <ScalarProperty Name="code_violation_name" ColumnName="code_violation_name" />
+          <ScalarProperty Name="code_violation_suffix" ColumnName="code_violation_suffix" />
+          <ScalarProperty Name="code_violation_nk" ColumnName="code_violation_nk" />
+          <ScalarProperty Name="code_violation_id" ColumnName="code_violation_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="teachers">
+      <EntityTypeMapping TypeName="samsjacksonvilleModel.teacher">
+        <MappingFragment StoreEntitySet="teacher">
+          <ScalarProperty Name="TeacherName" ColumnName="TeacherName" />
+          <ScalarProperty Name="Teacher_ID" ColumnName="Teacher_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

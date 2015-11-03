@@ -35,5 +35,19 @@ namespace DemoMVCMySql.Models
 
             return students;
         }
+        public List<TeacherModel> GetTeachers()
+        {
+
+            List<TeacherModel> teachers = new List<TeacherModel>();
+
+            using (var queryDB = new samsjacksonvilleEntities())
+            {
+
+                IEnumerable<TeacherModel> data = queryDB.Database.SqlQuery<TeacherModel>("select * from teacher");
+                teachers = data.ToList();
+            }
+
+            return teachers;
+        }
     }
 }
